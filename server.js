@@ -4,14 +4,16 @@ var bodyParser = require('body-parser');
 
 var app = express();
 
-app.use(express.static(path.join(__dirname, 'frontend')));
-
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
 const SERVER_PORT = process.env.PORT || 3000;
 const MAX_LENGTH_WORD = 10;
 
+
+app.get('/', function (req, res) {
+    res.sendFile('index.html');
+});
 
 app.post('/getWordLengthFrequency', function (req, res) {
     console.log("\npost requested received with data: ");
