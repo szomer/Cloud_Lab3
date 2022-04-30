@@ -21,3 +21,5 @@ The purpose of this lab is to create a basic client-server application. The clie
 *The server and client after adjustments:*
 >![Alt text](images/img3.PNG?raw=true "Drop down menu")
 >![Alt text](images/img4.PNG?raw=true "The App")
+
+Running the client.js file after deploying the app on Heroku works after adjusting the POST link to *`https://intense-mesa-63125.herokuapp.com/getWordLengthFrequency`*. The response from the server is the same as shown above, in the table.
