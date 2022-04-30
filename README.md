@@ -1,4 +1,4 @@
-# Lab 2 Software Development for the Cloud
+# Lab 3 Software Development for the Cloud
 
 Software Development for the Cloud
 
@@ -6,7 +6,7 @@ Software Development for the Cloud
 
 Suzanne Zomer
 
-The [URL](https://) to my deployed app.
+The [URL](https://intense-mesa-63125.herokuapp.com/) to my deployed app.
 
 ---
 
