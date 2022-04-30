@@ -7,7 +7,7 @@ const data = {
 var wordTable = new Array();
 
 
-axios.post('http://127.0.0.1:3000/getWordLengthFrequency', data)
+axios.post('https://intense-mesa-63125.herokuapp.com/getWordLengthFrequency', data)
     .then((res) => {
         const words = res.data.split(" ");
 
